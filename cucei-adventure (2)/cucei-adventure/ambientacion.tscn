@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://de14m8t7qm6yt"]
+
+[ext_resource type="AudioStream" path="res://Unlocking_the_Archives.mp3" id="1_okc45"]
+[ext_resource type="Script" uid="uid://dqb1ypv0ku2pd" path="res://audio_stream_player_2d.gd" id="2_wpbfn"]
+
+[node name="Node2D" type="Node2D" unique_id=1851348289]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="." unique_id=780438217]
+stream = ExtResource("1_okc45")
+autoplay = true
+script = ExtResource("2_wpbfn")
